@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('55.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.score {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.tap-area {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+  transition: transform 0.2s;
+}
+
+.tap-area:hover {
+  transform: scale(1.1);
+}
+
+.gk-layer {
+  position: absolute;
+  bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+}
